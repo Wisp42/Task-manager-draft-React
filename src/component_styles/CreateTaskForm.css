@@ -1,0 +1,58 @@
+.CreateTaskForm {
+  display: block;
+  margin: 5px;
+  border: 1px solid #4af;
+  border-radius: 15px;
+  background-color: #dddddd;
+}
+.CreateTaskTitleWrapper {
+  border-bottom: 1px solid #4af;
+  width: 100%;
+}
+.CreateTaskTitle {
+  background-color: inherit;
+  border: 0;
+  padding: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  width: 100%;
+}
+.CreateTaskTitle:focus {
+  outline: none;
+}
+.CreateTaskDescriptionWrapper {
+  width: 100%;
+}
+.CreateTaskDescription {
+  min-height: 100px;
+  padding: 5px;
+  background-color: inherit;
+  border: 0;
+  font-family: inherit;
+  font-weight: 300;
+  color: rgba(34, 34, 34, 0.85);
+  font-size: 18px;
+  width: 100%;
+  resize: vertical;
+  border-bottom: 1px solid #4af;
+}
+.CreateTaskDescription:focus {
+  outline: none;
+}
+.SendTaskDataWrapper {
+  text-align: right;
+  padding: 10px;
+}
+.SendTaskData {
+  padding: 5px 15px;
+  border: 1px solid #4af;
+  border-radius: 15px;
+  background-color: #eee;
+  color: #222;
+  font-size: 18px;
+  transition: 0.2s;
+}
+.SendTaskData:hover {
+  background-color: #44aaff;
+  color: #ffffff;
+}

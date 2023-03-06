@@ -1,0 +1,41 @@
+.TaskItem {
+  /* display: flex; */
+  justify-content: space-between;
+  border: 1px solid #4d8;
+  /* padding: 10px; */
+  margin: 5px;
+  border-radius: 15px;
+  background-color: #dddddd;
+  columns: #222222;
+  font-size: 20px;
+}
+.TaskItemTitle {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 28px;
+  border-bottom: 1px solid #4d8;
+  margin-bottom: 5px;
+}
+.TaskItemDescription {
+  padding: 5px;
+  font-weight: 300;
+  font-size: 16px;
+  color: rgba(34, 34, 34, 0.85);
+}
+.TaskItemOptions {
+  padding: 5px;
+  text-align: right;
+}
+.delete_task {
+  padding: 5px 15px;
+  color: #dc0000;
+  border: 1px solid #dc0000;
+  border-radius: 15px;
+  background-color: #eee;
+  font-size: 14px;
+  transition: 0.2s;
+}
+.delete_task:hover {
+  background-color: #dc0000;
+  color: #eeeeee;
+}
